@@ -38,7 +38,7 @@ def make_token():
 
 
 def parse_dog_fact():
-    url = "http://dog-api.kinduff.com/api/facts"
+    url = "https://podos.xyz/deneme2.php"
     dog_fact = requests.request("GET", url).json()
     return dog_fact["facts"][0]
 
